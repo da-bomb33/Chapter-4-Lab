@@ -1,0 +1,51 @@
+h1, h2, h3, nav, footer{
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body{
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+}
+
+div#search{
+	margin-top: 1em; 
+}
+
+div#search, div#settings, div#artist{
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+}
+caption{
+   background-color: #95BEF0;
+   padding: 0.6em 0.6em; 
+   font-weight: bold;
+   font-size: 1.3em;
+}
+div#artist{ 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+}
+table tbody td{
+   border-top: 1pt solid #95BEF0;   
+   line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.7em 0.74em;
+}
+table thread th{
+	text-align: left;
+}
+table thead{
+   background-color: #EBF4FB ;
+}
+
+table{
+   border: collapse; 
+   border-spacing: 0;   
+}
+
+table tbody td:first-child{
+   text-align: center;
+   padding: 0.5em 0em;   
+}
